@@ -9,70 +9,70 @@
         </div>
     </section>
     <section class="cnt_p bg-white">
-            <div class="pt-28 lg:mx-12 mx-6">
-                <div class="sm:flex sm:flex-wrap sm:justify-center -my-4 sm:-my-8 sm:-mx-3">
-                    <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
+            <div class="pt-32 mx-6 lg:mx-0">
+                <div class="justify-center flex flex-wrap lg:flex-nowrap col-span-12">
+                    <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
-                            <img class="rounded-full mb-4 w-4/4" src="../../assets/images/products/1.png" />
+                            <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/1.png" />
                             <h4 class="text-xl font-medium mb-1 font-casper">Frutos secos</h4>
                             <div class="text-gray-500 mb-1">Description Producto 1</div>
                         </div>
                     </div>
 
-                    <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" >
+                    <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
-                            <img class="rounded-full mb-4 w-4/4" src="../../assets/images/products/2.png" />
+                            <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/2.png" />
                             <h4 class="text-xl font-medium mb-1 font-casper">Frutas deshidratadas</h4>
                             <div class="text-gray-500 mb-1">Description Producto 2</div>
                         </div>
                     </div>
 
-                    <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" >
+                    <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
-                            <img class="rounded-full mb-4 w-4/4" src="../../assets/images/products/3.png" />
+                            <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/3.png" />
                             <h4 class="text-xl font-medium mb-1 font-casper">Jamaica</h4>
                             <div class="text-gray-500 mb-1">Description Producto 3</div>
                         </div>
                     </div>
 
-                    <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
+                    <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
-                            <img class="rounded-full mb-4 w-4/4" src="../../assets/images/products/4.png" />
+                            <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/4.png" />
                             <h4 class="text-xl font-medium mb-1 font-casper">Superfoods</h4>
                             <div class="text-gray-500 mb-1">Description Producto 4</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="pt-28 lg:mx-12 mx-6">
-                <div class="sm:flex sm:flex-wrap sm:justify-center -my-4 sm:-my-8 sm:-mx-3">
-                    <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
+            <div class="pt-32 mx-6 lg:mx-0">
+                <div class="justify-center flex flex-wrap lg:flex-nowrap col-span-12">
+                    <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
-                            <img class="rounded-full mb-4 w-4/4" src="../../assets/images/products/2.png" />
+                            <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/2.png" />
                             <h4 class="text-xl font-medium mb-1 font-casper">Enchilados</h4>
                             <div class="text-gray-500 mb-1">Description Producto 1</div>
                         </div>
                     </div>
 
-                    <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
+                    <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
-                            <img class="rounded-full mb-4 w-4/4" src="../../assets/images/products/1.png" />
+                            <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/1.png" />
                             <h4 class="text-xl font-medium mb-1 font-casper">Especias</h4>
                             <div class="text-gray-500 mb-1">Description Producto 2</div>
                         </div>
                     </div>
 
-                    <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
+                    <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
-                            <img class="rounded-full mb-4 w-4/4" src="../../assets/images/products/5.png" />
+                            <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/5.png" />
                             <h4 class="text-xl font-medium mb-1 font-casper">Botanas</h4>
                             <div class="text-gray-500 mb-1">Description Producto 3</div>
                         </div>
                     </div>
 
-                    <div class="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3">
+                    <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
-                            <img class="rounded-full mb-4 w-4/4" src="../../assets/images/products/6.png" />
+                            <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/6.png" />
                             <h4 class="text-xl font-medium mb-1 font-casper">Cereales</h4>
                             <div class="text-gray-500 mb-1">Description Producto 4</div>
                         </div>

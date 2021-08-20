@@ -15,8 +15,16 @@
 </template>
 
 <script setup>
+    import AOS from 'aos'
     import Header from './components/header/Index.vue';
     import Footer from './components/footer/Index.vue';
+
+    AOS.init({
+      once: true,
+      disable: 'phone',
+      duration: 600,
+      easing: 'ease-out-sine',
+    })  
     console.log("App Init");
 </script>
 

@@ -3,8 +3,8 @@
 		<div>
 			<img src="../../assets/images/about/clip_about.png">
 		</div>
-		<div class="grid md:grid-cols-12 gap-5 lg:gap-20 bg-white">
-			<div class="md:col-span-6 lg:col-span-6 p-6 md:p-16">
+		<div class="hidden md:grid md:grid-cols-12 bg-white">
+			<div class="md:col-span-6 lg:col-span-6 p-6 md:p-16 my-16">
 				<p class="font-casper">La empresa líder en importación de nueces, frutos secos y especias. <br>
 					<span class="c_1">
 						En los últimos 49 años Grupo Premier nos hemos consolidado como la empresa líder en importación, procesamiento y distribución de frutos secos en México	
@@ -17,7 +17,7 @@
 				</p>
 			</div>
 
-			<div class="md:col-span-6 lg:col-span-6 p-6 md:p-16">
+			<div class="md:col-span-6 lg:col-span-6 p-6 md:p-16 my-16">
 				<p class="font-casper">
 					Actualmente contamos con nuestro Corporativo Matriz y Planta Procesadora en Guadalajara, Corporativo en CDMX y una Bodega en Monterrey. 
 				</p>
@@ -27,16 +27,29 @@
 				</p>				
 			</div>
 		</div>
+		<div class="grid md:hidden lg:grid-cols-12 bg-white">
+			<div class="md:col-span-6 lg:col-span-6 p-6 md:p-16 my-16">
+				<p class="font-casper text-center">
+					<span class="c_1">
+						En los últimos 49 años nos hemos consolidado como la empresa líder en importación, procesamiento y distribución de frutos secos, nueces y especias en México.
+					</span>
+				</p> 
+				<br>
+				<p class="font-casper text-center">
+					Grupo Premier nace en 1970 con el ideal de satisfacer las necesidades del creciente mercado de alimentos a granel.
+				</p>
+			</div>
+		</div>
 
-		<div class="grid md:grid-cols-12 gap-5 lg:gap-20">
-			<div class="md:col-span-6 lg:col-span-6 p-3 md:p-16">
-				<p class="text-white text-4xl m-4">Historia</p>
+		<div class="hidden md:grid md:grid-cols-12 gap-5 lg:gap-20">
+			<div class="md:col-span-6 lg:col-span-6 p-3 md:p-16 my-16">
+				<p class="text-white font-casper text-5xl m-4">Historia</p>
 
-				<p class="text-white font-casper max-w-xs m-4">
+				<p class="text-white font-casper max-w-xs m-6">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 				</p>
 
-				<p class="text-white font-casper max-w-xs m-4">
+				<p class="text-white font-casper max-w-xs m-6">
 					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
 				</p>
 			</div>
@@ -49,7 +62,7 @@
 			</div>
 		</div>
 
-		<div class="grid md:grid-cols-12 bg-white">
+		<div class="hidden md:grid md:grid-cols-12 bg-white">
 			<div class="md:col-span-12 lg:col-span-12 text-center p-6 md:p-16">
 				<p class="c_1 font-casper text-2xl md:text-5xl">
 					Premier procesa frutos secos traídos de más <br>
@@ -58,54 +71,63 @@
 			</div>
 		</div>
 
-		<div class="grid md:grid-cols-12 gap-5 lg:gap-20">
+		<div class="grid md:grid-cols-12 ">
 			<div class="md:col-span-6 lg:col-span-6 p-3 lg:p-16">
-				<p class="text-white font-casper m-4">Actualmente en Grupo Premier importamos frutos secos de </p>
+				<p class="text-white font-casper text-center text-2xl md:text-xl m-4">Actualmente en Grupo Premier importamos frutos secos de </p>
 
-				<div class="grid md:grid-cols-12 mt-10 p-6 md:mt-20">
-					<div class="md:col-span-6 lg:col-span-6">
-						<p class="font-casper c_1 text-2xl m-4">
+				<div class="grid md:grid-row-12 mt-10 p-0 md:p-6 md:mt-20 text-left">
+					<div class="grid grid-rows-2 md:grid-rows-3 grid-flow-col">
+						<p class="font-casper col-span-3 c_1 m-4">
 							CÁNADA
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							MÉXICO
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							BRASIL
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							PREÚ
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							CHILE
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							ARGENTINA
 						</p>
 					</div>
-					<div class="md:col-span-6 lg:col-span-6">
-						<p class="font-casper text-white m-4">
+					<div class="grid grid-rows-2 md:grid-rows-3 grid-flow-col">
+						<p class="font-casper col-span-3 text-white m-4">
 							CÁNADA
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							MÉXICO
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							BRASIL
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							PREÚ
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							CHILE
 						</p>
-						<p class="font-casper text-white m-4">
+						<p class="font-casper col-span-3 text-white m-4">
 							ARGENTINA
 						</p>
 					</div>
 				</div>
+
+				<div class="grid md:hidden grid-row-6 grid-flow-col gap-4">
+                	<div>
+                		<img src="../../assets/images/home/2.png"/>
+                	</div>
+                	<div>
+                		<img src="../../assets/images/home/1.png"/>
+                	</div>
+                </div>
 			</div>
-			<div class="md:col-span-6 lg:col-span-6 p-16 bg-white">
+			<div class="hidden md:flex md:col-span-6 lg:col-span-6 p-16 bg-white">
 				<div class="flex flex-row md:flex-col">
 					<div class="text-center">
 	                    <img src="../../assets/images/about/2.png" class="w-3/4">
@@ -125,8 +147,8 @@
 		</div>
 
 		<div class="grid md:grid-cols-12 bg-white">
-			<div class="md:col-span-12 lg:col-span-12 text-center p-3 md:p-16">
-				<p class="c_2 font-casper text-xl lg:text-4xl">
+			<div class="md:col-span-12 lg:col-span-12 text-center p-6 md:p-16">
+				<p class="c_2 font-casper text-base sm:text-xl lg:text-4xl">
 					En un ambiente de inocuidad, con maquinaria de última tecnología <br>
 					y bajo una constante búsqueda de estrategias que permitan <br>
 					la excelencia en la calidad de los productos procesados, <br>
