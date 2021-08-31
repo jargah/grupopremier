@@ -4,6 +4,7 @@ import About from '../pages/about/Index.vue'
 import OceanSpray from '../pages/oceanSpray/Index.vue'
 import Contact from '../pages/contact/Index.vue'
 import Products from '../pages/products/Index.vue'
+import ProductDetail from '../pages/products/Detail.vue'
 
 const routerHistory = createWebHistory()
 
@@ -38,6 +39,10 @@ const router = createRouter({
     {
       path: '/productos',
       component: Products
+    },
+    {
+      path: '/productos/detalle',
+      component: ProductDetail
     }
   ]
 })

@@ -1,12 +1,12 @@
 <template>
 	<div>
-		<div>
-			<img src="../../assets/images/home/clip_home2.png">
+		<div class="opacity-50">
+			<Video :media="clip_1" :padding="0"/>
 		</div>
 		<section>
 		    <div class="max-w-6xl mx-auto px-4 sm:px-6">
 		      <div class="py-12 md:py-20 border-t border-gray-800">
-		      	<img src="../../assets/images/contact/mapa.png" class="absolute right-20 w-3/5">
+		      	<img src="../../assets/images/contact/mapa.png" class="absolute right-20 w-3/5 mt-40 xl:mt-20">
 		        <!-- Section header -->
 		        <div class="text-left pb-12 md:pb-20">
 		          <h2 class="h2 mb-4 text-white">Contacto</h2>
@@ -132,11 +132,16 @@
 </template>
 
 <script>
+	import clip_1 from '../../assets/videos/contact/contact.mp4';
+	import Video from '../../components/media/Index.vue';
 	export default {
-		name: 'oceanSpray',
+		name: 'contact',
+		components: {
+			Video
+		},
 		data() {
 			return {
-
+				clip_1
 			}
 		}
 	};

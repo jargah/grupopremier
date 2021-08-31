@@ -1,7 +1,8 @@
 <template>
 	<div>
-		<div>
-			<img src="../../assets/images/home/clip_home2.png">
+		<div class="opacity-50">
+			<!-- <img src="../../assets/images/home/clip_home2.png"> -->
+			<Video :media="clip_1" :padding="0"/>
 		</div>
 		<div class="grid md:grid-cols-12 bg-white">
 			<div class="md:col-span-12 lg:col-span-12 text-center p-16">
@@ -27,7 +28,7 @@
 			</div>
 
 			<div class="md:col-span-6 lg:col-span-6 p-16">
-				<img class="w-3/4" src="../../assets/images/ocean_spray/1.png"/>
+				<Video :media="clip_2" :padding="0"/>
 				<p class="c_2 text-2xl font-casper text-center">
 					El arándano: un fruto único <br>
 					y excepcional
@@ -38,11 +39,18 @@
 </template>
 
 <script>
+	import clip_1 from '../../assets/videos/ocean_spray/1.mp4';
+	import clip_2 from '../../assets/videos/ocean_spray/2.mp4';
+	import Video from '../../components/media/Index.vue';
 	export default {
 		name: 'oceanSpray',
+		components: {
+			Video
+		},
 		data() {
 			return {
-
+				clip_1,
+				clip_2
 			}
 		}
 	};

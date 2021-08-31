@@ -68,35 +68,40 @@
 </template>
 
 <script>
-// import Dropdown from './../utils/Dropdown.vue'
 
 export default {
-  name: 'header',
-  components: {
-    // Dropdown
-  },
-  data: function () {
-    return {
-      mobileNavOpen: false
-    }
-  },
-  methods: {
-    clickOutside(e) {
-      if (!this.mobileNavOpen || this.$refs.mobileNav.contains(e.target) || this.$refs.hamburger.contains(e.target)) return
-      this.mobileNavOpen = false
+    name: 'header',
+    data: function () {
+        return {
+            mobileNavOpen: false,
+            url: false
+        }
     },
-    keyPress() {
-      if (!this.mobileNavOpen || event.keyCode !== 27) return
-      this.mobileNavOpen = false
-    }    
-  },  
-  mounted() {
-    document.addEventListener('click', this.clickOutside)    
-    document.addEventListener('keydown', this.keyPress)
-  },
-  beforeUnmount() {
-    document.removeEventListener('click', this.clickOutside)
-    document.removeEventListener('keydown', this.keyPress)
-  }
+    methods: {
+        clickOutside(e) {
+            if (!this.mobileNavOpen || this.$refs.mobileNav.contains(e.target) || this.$refs.hamburger.contains(e.target)) return
+            this.mobileNavOpen = false
+        },
+        keyPress() {
+            if (!this.mobileNavOpen || event.keyCode !== 27) return
+            this.mobileNavOpen = false
+        }    
+    },  
+    mounted() {
+        document.addEventListener('click', this.clickOutside)    
+        document.addEventListener('keydown', this.keyPress)
+    },
+    beforeUnmount() {
+        document.removeEventListener('click', this.clickOutside)
+        document.removeEventListener('keydown', this.keyPress)
+    },
+    created() {
+        this.url = window.location.href.indexOf('detalle') > -1
+    }
 };
 </script>
+<style>
+    .background-header {
+        background: h;
+    }
+</style>

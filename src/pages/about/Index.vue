@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<div>
-			<img src="../../assets/images/about/clip_about.png">
+		<div class="opacity-60">
+			<Video :media="clip_1" :padding="0"/>
 		</div>
 		<div class="hidden md:grid md:grid-cols-12 bg-white">
 			<div class="md:col-span-6 lg:col-span-6 p-6 md:p-16 my-16">
@@ -77,7 +77,7 @@
 
 				<div class="grid md:grid-row-12 mt-10 p-0 md:p-6 md:mt-20 text-left">
 					<div class="grid grid-rows-2 md:grid-rows-3 grid-flow-col">
-						<p class="font-casper col-span-3 c_1 m-4">
+						<p class="font-casper text-2xl col-span-3 c_1 m-4">
 							CÁNADA
 						</p>
 						<p class="font-casper col-span-3 text-white m-4">
@@ -134,11 +134,11 @@
 	                </div>
 	                <div class="grid md:grid-cols-12 mt-20">
 	                	<div class="md:col-span-6 lg:col-span-6">
-	                		<img class="rounded-full mb-4" src="../../assets/images/home/2.png" width="120" height="120"/>
+	                		<img class="rounded-full mb-4" src="../../assets/images/about/3.png" />
 	                		<p class="c_2 font-casper">ARÁNDANO</p>
 	                	</div>
 	                	<div class="md:col-span-6 lg:col-span-6">
-	                		<img class="rounded-full mb-4" src="../../assets/images/home/1.png" width="120" height="120"/>
+	                		<img class="rounded-full mb-4" src="../../assets/images/about/4.png" />
 	                		<p class="c_2 font-casper">LINAZA ENTERA</p>
 	                	</div>
 	                </div>
@@ -161,11 +161,16 @@
 </template>
 
 <script>
+	import clip_1 from '../../assets/videos/about/about.mp4';
+	import Video from '../../components/media/Index.vue';
 	export default {
 		name: 'about',
+		components: {
+			Video
+		},
 		data() {
 			return {
-
+				clip_1
 			}
 		}
 	};
