@@ -1,7 +1,8 @@
 <template>
+    <Header> </Header>
     <section>
         <div>
-            <h4 class="absolute left-10 top-60 z-index-100 md:text-sm lg:text-3xl font-casper text-white">La empresa #1 en Mexico en distribución <br> Premier de frutos secos y nueces a nivel <br> nacional.</h4>
+            <h4 class="absolute left-10 top-60 z-index-100 md:text-sm lg:text-3xl font-casper text-white" data-aos="fade-up">La empresa #1 en Mexico en distribución <br> Premier de frutos secos y nueces a nivel <br> nacional.</h4>
         </div>
         <Video :media="clip_1" :padding="0" />
     </section>
@@ -11,32 +12,32 @@
                     <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
                             <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/1.png" />
-                            <h4 class="text-xl font-medium mb-1 font-casper">Frutos secos</h4>
-                            <div class="text-gray-500 mb-1">Description Producto 1</div>
+                            <h4 class="text-xl font-medium mb-1 font-casper" data-aos="fade-up">Frutos secos</h4>
+                            <div class="text-gray-500 mb-1" data-aos="fade-up" data-aos-delay="200">Description Producto 1</div>
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
                             <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/2.png" />
-                            <h4 class="text-xl font-medium mb-1 font-casper">Frutas deshidratadas</h4>
-                            <div class="text-gray-500 mb-1">Description Producto 2</div>
+                            <h4 class="text-xl font-medium mb-1 font-casper" data-aos="fade-up">Frutas deshidratadas</h4>
+                            <div class="text-gray-500 mb-1" data-aos="fade-up" data-aos-delay="200">Description Producto 2</div>
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
                             <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/3.png" />
-                            <h4 class="text-xl font-medium mb-1 font-casper">Jamaica</h4>
-                            <div class="text-gray-500 mb-1">Description Producto 3</div>
+                            <h4 class="text-xl font-medium mb-1 font-casper" data-aos="fade-up">Jamaica</h4>
+                            <div class="text-gray-500 mb-1" data-aos="fade-up" data-aos-delay="200">Description Producto 3</div>
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
                             <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/4.png" />
-                            <h4 class="text-xl font-medium mb-1 font-casper">Superfoods</h4>
-                            <div class="text-gray-500 mb-1">Description Producto 4</div>
+                            <h4 class="text-xl font-medium mb-1 font-casper" data-aos="fade-up">Superfoods</h4>
+                            <div class="text-gray-500 mb-1" data-aos="fade-up" data-aos-delay="200">Description Producto 4</div>
                         </div>
                     </div>
                 </div>
@@ -46,32 +47,32 @@
                     <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
                             <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/2.png" />
-                            <h4 class="text-xl font-medium mb-1 font-casper">Enchilados</h4>
-                            <div class="text-gray-500 mb-1">Description Producto 1</div>
+                            <h4 class="text-xl font-medium mb-1 font-casper" data-aos="fade-up">Enchilados</h4>
+                            <div class="text-gray-500 mb-1" data-aos="fade-up" data-aos-delay="200">Description Producto 1</div>
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
                             <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/1.png" />
-                            <h4 class="text-xl font-medium mb-1 font-casper">Especias</h4>
-                            <div class="text-gray-500 mb-1">Description Producto 2</div>
+                            <h4 class="text-xl font-medium mb-1 font-casper" data-aos="fade-up">Especias</h4>
+                            <div class="text-gray-500 mb-1" data-aos="fade-up" data-aos-delay="200">Description Producto 2</div>
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
                             <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/5.png" />
-                            <h4 class="text-xl font-medium mb-1 font-casper">Botanas</h4>
-                            <div class="text-gray-500 mb-1">Description Producto 3</div>
+                            <h4 class="text-xl font-medium mb-1 font-casper" data-aos="fade-up">Botanas</h4>
+                            <div class="text-gray-500 mb-1" data-aos="fade-up" data-aos-delay="200">Description Producto 3</div>
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-6 lg:col-span-3">
                         <div class="flex flex-col items-center">
                             <img class="mb-4 w-3/4 lg:w-4/4" src="../../assets/images/products/6.png" />
-                            <h4 class="text-xl font-medium mb-1 font-casper">Cereales</h4>
-                            <div class="text-gray-500 mb-1">Description Producto 4</div>
+                            <h4 class="text-xl font-medium mb-1 font-casper" data-aos="fade-up">Cereales</h4>
+                            <div class="text-gray-500 mb-1" data-aos="fade-up" data-aos-delay="200">Description Producto 4</div>
                         </div>
                     </div>
                 </div>
@@ -82,17 +83,18 @@
                 </router-link>
             </div>
         </section>
-
 </template>
 
 <script>
-
     import clip_1 from '../../assets/videos/products/1.mp4';
     import Video from '../../components/media/Index.vue';
+    import Header from '../../components/header/Index.vue';
+
     export default {
         name: 'products',
         components: {
-            Video
+            Video,
+             Header
         },
         data() {
             return {

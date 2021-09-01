@@ -1,4 +1,6 @@
 <template>
+    <HeaderDetail class="bg-white"> </HeaderDetail>
+
     <section class="bg-white mt-40">
         <div class="grid md:grid-cols-12 gap-5 lg:gap-20 bg-white">
             <div class="md:col-span-6 lg:col-span-6 p-6 md:p-16">
@@ -18,15 +20,15 @@
                     
                     <div class="mt-6 flex flex-row">
                         <div class="mb-8">
-                            <img src="../../assets/images/products_detail/benefits/3.gif" class="w-3/4">
+                            <img src="../../assets/images/products_detail/benefits/3.gif" class="w-3/5">
                         </div>
 
                         <div class="mb-8">
-                            <img src="../../assets/images/products_detail/benefits/1.gif" class="w-3/4">
+                            <img src="../../assets/images/products_detail/benefits/1.gif" class="w-3/5">
                         </div>
 
                         <div class="mb-8">
-                            <img src="../../assets/images/products_detail/benefits/8.gif" class="w-3/4">
+                            <img src="../../assets/images/products_detail/benefits/8.gif" class="w-3/5">
                         </div>
                     </div>
 
@@ -34,19 +36,19 @@
 
                     <div class="mt-6 flex flex-row ">
                         <div class="mb-8">
-                            <img src="../../assets/images/products_detail/benefits/7.gif" class="w-4/4">
+                            <img src="../../assets/images/products_detail/benefits/7.gif" class="w-3/4">
                         </div>
 
                         <div class="mb-8">
-                            <img src="../../assets/images/products_detail/benefits/2.gif" class="w-4/4">
+                            <img src="../../assets/images/products_detail/benefits/2.gif" class="w-3/4">
                         </div>
 
                         <div class="mb-8">
-                            <img src="../../assets/images/products_detail/benefits/5.gif" class="w-4/4">
+                            <img src="../../assets/images/products_detail/benefits/5.gif" class="w-3/4">
                         </div>
 
                         <div class="mb-8">
-                            <img src="../../assets/images/products_detail/benefits/1.gif" class="w-4/4">
+                            <img src="../../assets/images/products_detail/benefits/1.gif" class="w-3/4">
                         </div>
                     </div>
                 </div>
@@ -99,31 +101,42 @@
     </section>
     <div class="col-span-12 bg-white p-6 md:p-16">
         <p class="c_2 text-2xl  font-casper text-center md:text-left">GALERÍA DE LOS PRODUCTOS</p>
-        <div class="mt-6 flex flex-row flex-nowrap">
-            <div class="mb-8">
-                <img src="../../assets/images/products_detail/6.png" class="w-3/4">
+        <div class="justify-center flex flex-wrap lg:flex-nowrap col-span-12 mt-6">
+            <div class="col-span-12 md:col-span-6 lg:col-span-3">
+                <div class="flex flex-col items-center">
+                    <img src="../../assets/images/products_detail/6.png" class="mb-4 w-3/4">
+                </div>
             </div>
 
-            <div class="mb-8">
-                <img src="../../assets/images/products_detail/7.png" class="w-3/4">
+            <div class="col-span-12 md:col-span-6 lg:col-span-3">
+                <div class="flex flex-col items-center">
+                    <img src="../../assets/images/products_detail/7.png" class="mb-4 w-3/4">
+                </div>
             </div>
 
-            <div class="mb-8">
-                <img src="../../assets/images/products_detail/8.png" class="w-3/4">
+            <div class="col-span-12 md:col-span-6 lg:col-span-3">
+                <div class="flex flex-col items-center">
+                    <img src="../../assets/images/products_detail/8.png" class="mb-4 w-3/4">
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-  export default {
-    name: 'products-detail',
-    data() {
-      return {
+    import HeaderDetail from '../../components/header/detail.vue';
 
-      }
-    }
-  };
+    export default {
+        name: 'products-detail',
+        components: {
+            HeaderDetail
+        },
+        data() {
+          return {
+
+          }
+        }
+    };
 </script>
 
 <style>

@@ -17,16 +17,16 @@
                     <!-- Desktop menu links -->
                     <ul class="flex flex-grow justify-end flex-wrap items-center">
                         <li>
-                            <router-link to="/somos" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">SOMOS</router-link>
+                            <router-link to="/somos" class="hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out c_2">SOMOS</router-link>
                         </li>
                         <li>
-                            <router-link to="/productos" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">PRODUCTOS</router-link>
+                            <router-link to="/productos" class="hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out c_2">PRODUCTOS</router-link>
                         </li>
                         <li>
-                            <router-link to="/ocean_spray" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">OCEAN SPRAY</router-link>
+                            <router-link to="/ocean_spray" class="hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out c_2">OCEAN SPRAY</router-link>
                         </li>
                         <li>
-                            <router-link to="/contacto" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">CONTACTO</router-link>
+                            <router-link to="/contacto" class="hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out c_2">CONTACTO</router-link>
                         </li>
                     </ul>
                 </nav>
@@ -70,7 +70,7 @@
 <script>
 
 export default {
-    name: 'header',
+    name: 'header_deail',
     data: function () {
         return {
             mobileNavOpen: false
@@ -97,7 +97,11 @@ export default {
 };
 </script>
 <style>
-    .background-header {
-        background: h;
+    .c_2 {
+        color: #002554;
+    }
+
+    .c_3 {
+        color: #96D752;
     }
 </style>

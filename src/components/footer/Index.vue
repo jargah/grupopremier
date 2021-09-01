@@ -4,7 +4,7 @@
             <div class="max-w-6xl mx-auto px-4 sm:px-6">
                 <div class="grid lg:grid-cols-12 gap-5 lg:gap-20 mb-5 lg:mb-12">
                     <!-- Logos -->
-                    <div class="lg:col-span-1 lg:col-span-2">
+                    <div class="lg:col-span-2">
                         <div class="mb-4 text-left">
                             <h6 class="text-white font-casper font-medium mb-1">CORPORATIVO</h6>
                         </div>
@@ -105,10 +105,18 @@
                         </div>
                     </div>
                      <!-- Social -->
-                    <div class="md:col-span-3 lg:col-span-3 hidden lg:block">
+                    <div class="md:col-span-4 lg:col-span-4 hidden lg:block">
 
                         <div class="mb-4 text-left">
                             <h6 class="text-white font-medium mb-1">SUSCRIBETE</h6>
+                        </div>
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <input class="appearance-none bg-transparent border-none w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Email" aria-label="Full name">
+                            <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 text-sm  border-none text-white py-1 px-2 rounded" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </button>
                         </div>
                         <br class="hidden lg:block">
                         <div class="mb-8">

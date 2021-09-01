@@ -1,10 +1,6 @@
 <template>
     <div class="flex flex-col min-h-screen overflow-hidden color_gp">
-        <!-- Site header -->
-        <Header />
-        <!-- v-if="!header_view" -->
-        <!-- <HeaderWhite v-else /> -->
-    
+
         <!-- Page content -->
         <main class="flex-grow">
             <!-- Router Vue -->
@@ -19,7 +15,6 @@
 <script setup>
     import { ref, watchEffect } from 'vue'
     import AOS from 'aos'
-    import Header from './components/header/Index.vue';
     import HeaderWhite from './components/header/detail.vue';
     import Footer from './components/footer/Index.vue';
 
@@ -30,17 +25,14 @@
       easing: 'ease-out-sine',
     })
 
-    // const header_view = ref(window.location.href.indexOf('detalle') > -1)
-
-    // watchEffect(() => console.log(header_view.value))
-
-    // //header_view.value =  window.location.href.indexOf('detalle') > -1
-
     console.log("App Init");
 </script>
 
 <style>
     .color_gp {
         background: #002554;
+    }
+    .color_gpo {
+        background: #FFFFFF;
     }
 </style>

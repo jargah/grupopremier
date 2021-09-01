@@ -70,11 +70,10 @@
 <script>
 
 export default {
-    name: 'header',
+    name: 'header_main',
     data: function () {
         return {
-            mobileNavOpen: false,
-            url: false
+            mobileNavOpen: false
         }
     },
     methods: {
@@ -94,14 +93,6 @@ export default {
     beforeUnmount() {
         document.removeEventListener('click', this.clickOutside)
         document.removeEventListener('keydown', this.keyPress)
-    },
-    created() {
-        this.url = window.location.href.indexOf('detalle') > -1
     }
 };
 </script>
-<style>
-    .background-header {
-        background: h;
-    }
-</style>
